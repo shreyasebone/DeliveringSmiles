@@ -3,7 +3,11 @@ package com.sebone.deliveringsmiles.dal;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-
+/**class name:- CommanDao
+ * Objective:-to get Data base connection .
+ * @author:-Shreya paliwal
+ * Date-17/03/2022
+*/
 public class CommanDao {
 	static String DB_url="jdbc:mysql://127.0.0.1:3306/driver";
 	static String user="root";
